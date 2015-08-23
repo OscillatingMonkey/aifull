@@ -1,0 +1,5 @@
+<%= form_for @entry, url: { action: 'create' } do |f| %>
+	Name : <%= f.text_field :name %>
+	Description : <%= f.text_area :description %>
+	<%= f.submit 'Create Entry' %>
+<% end %>
