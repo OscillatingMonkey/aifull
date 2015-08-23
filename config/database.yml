@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: aifull_dev
+  pool: 5
+  username: aifull_user
+  password: aifull_123  
